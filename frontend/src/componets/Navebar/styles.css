@@ -1,9 +1,4 @@
-header {
-    height: 60px;
-    background-color: var(--color-primary);
-    display: flex;
-    align-items: center;
-}
+
 
 .dsmovie-nav-content {
     display: flex;
