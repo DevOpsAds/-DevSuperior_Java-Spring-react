@@ -10,7 +10,7 @@ export function Navbar() {
 
                     <a href="https://github.com/DevOpsAds/" target="_blank" rel="noreferrer">
                         <div className="dsmovie-contact-container">
-                            <img className="background-blue" src={GithubIcon} alt="" />
+                            <img className="background-blue" src={GithubIcon} alt="icone do github" />
                             <p className="dsmovie-contact-link">/devsuperior</p>
                         </div>
                     </a>
