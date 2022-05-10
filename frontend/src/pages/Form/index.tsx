@@ -1,3 +1,4 @@
+import { Pagination } from "../../components/Pagination";
 import "./styles.css"
 
 
@@ -11,7 +12,9 @@ export function Form() {
     score: 4.5
   };
   return (
+
     <div className="dsmovie-form-container">
+      <Pagination />
       <img className="dsmovie-movie-card-image" src={movie.image} alt={movie.title} />
       <div className="dsmovie-card-bottom-container">
         <h3>{movie.title} </h3>
